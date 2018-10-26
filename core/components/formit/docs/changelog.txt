@@ -3,7 +3,6 @@ Changelog for FormIt.
 FormIt 4.2.0
 ====================================
 - Add CSRFHelper as dependency
-- Add validation for php version
 
 FormIt 4.1.0
 ====================================

@@ -129,7 +129,7 @@ class FormItFormExportProcessor extends modObjectGetListProcessor
         if ($ff['encrypted']) {
             $ff['values'] = $object->decrypt($ff['values']);
         }
-        $ff['values'] = json_decode($ff['values'], true);
+        $ff['values'] = json_decode($ff['values'], true, 1000, JSON_UNESCAPED_UNICODE);
         return $ff;
     }
 }
